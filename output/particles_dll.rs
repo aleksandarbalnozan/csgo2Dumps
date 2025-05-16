@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-22 11:02:00.149589400 UTC
+// 2025-05-16 20:58:02.279232600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -792,7 +792,7 @@ pub mod cs2_dumper {
             pub mod C_OP_RemapGravityToVector {
                 pub const m_vInput1: usize = 0x1C0; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0x838; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x83C; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x83C; // 
                 pub const m_bNormalizedOutput: usize = 0x840; // bool
             }
             // Parent: CParticleFunctionOperator
@@ -1621,7 +1621,7 @@ pub mod cs2_dumper {
                 pub const m_CollisionGroupName: usize = 0x820; // char[128]
                 pub const m_nTraceSet: usize = 0x8A0; // ParticleTraceSet_t
                 pub const m_bLOS: usize = 0x8A4; // bool
-                pub const m_nSetMethod: usize = 0x8A8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x8A8; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -1733,7 +1733,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x1DC; // float32
                 pub const m_flStartTime: usize = 0x1E0; // float32
                 pub const m_flEndTime: usize = 0x1E4; // float32
-                pub const m_nSetMethod: usize = 0x1E8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1E8; // 
                 pub const m_bActiveRange: usize = 0x1EC; // bool
                 pub const m_flRemapBias: usize = 0x1F0; // float32
             }
@@ -2081,7 +2081,7 @@ pub mod cs2_dumper {
                 pub const m_flInputMax: usize = 0x1DC; // float32
                 pub const m_flOutputMin: usize = 0x1E0; // float32
                 pub const m_flOutputMax: usize = 0x1E4; // float32
-                pub const m_nSetMethod: usize = 0x1E8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1E8; // 
                 pub const m_bPerParticle: usize = 0x1EC; // bool
             }
             // Parent: CParticleFunctionInitializer
@@ -2173,7 +2173,7 @@ pub mod cs2_dumper {
                 pub const m_vInput1: usize = 0x1D0; // CPerParticleVecInput
                 pub const m_vInput2: usize = 0x848; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0xEC0; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0xEC4; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0xEC4; // 
                 pub const m_bNormalizedOutput: usize = 0xEC8; // bool
             }
             // Parent: CParticleFunctionOperator
@@ -2182,7 +2182,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RemapTransformVisibilityToVector {
-                pub const m_nSetMethod: usize = 0x1C0; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1C0; // 
                 pub const m_TransformInput: usize = 0x1C8; // CParticleTransformInput
                 pub const m_nFieldOutput: usize = 0x230; // ParticleAttributeIndex_t
                 pub const m_flInputMin: usize = 0x234; // float32
@@ -2738,7 +2738,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RemapTransformVisibilityToScalar {
-                pub const m_nSetMethod: usize = 0x1C0; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1C0; // 
                 pub const m_TransformInput: usize = 0x1C8; // CParticleTransformInput
                 pub const m_nFieldOutput: usize = 0x230; // ParticleAttributeIndex_t
                 pub const m_flInputMin: usize = 0x234; // float32
@@ -2850,7 +2850,7 @@ pub mod cs2_dumper {
                 pub const m_flStartTime: usize = 0x1DC; // float32
                 pub const m_flEndTime: usize = 0x1E0; // float32
                 pub const m_flInterpRate: usize = 0x1E4; // float32
-                pub const m_nSetMethod: usize = 0x1E8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1E8; // 
             }
             // Parent: CParticleFunction
             // Field count: 3
@@ -2954,7 +2954,7 @@ pub mod cs2_dumper {
                 pub const m_vecOutputMax: usize = 0x1D8; // Vector
                 pub const m_TransformStart: usize = 0x1E8; // CParticleTransformInput
                 pub const m_TransformEnd: usize = 0x250; // CParticleTransformInput
-                pub const m_nSetMethod: usize = 0x2B8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x2B8; // 
                 pub const m_bActiveRange: usize = 0x2BC; // bool
                 pub const m_bRadialCheck: usize = 0x2BD; // bool
             }
@@ -3070,7 +3070,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x5E8; // CPerParticleFloatInput
                 pub const m_TransformStart: usize = 0x748; // CParticleTransformInput
                 pub const m_TransformEnd: usize = 0x7B0; // CParticleTransformInput
-                pub const m_nSetMethod: usize = 0x818; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x818; // 
                 pub const m_bActiveRange: usize = 0x81C; // bool
                 pub const m_bAdditive: usize = 0x81D; // bool
                 pub const m_bCapsule: usize = 0x81E; // bool
@@ -3271,7 +3271,7 @@ pub mod cs2_dumper {
                 pub const m_vInput1: usize = 0x1C8; // CPerParticleVecInput
                 pub const m_vInput2: usize = 0x840; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0xEB8; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0xEBC; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0xEBC; // 
                 pub const m_bNormalizedOutput: usize = 0xEC0; // bool
             }
             // Parent: CParticleFunctionInitializer
@@ -3345,7 +3345,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMin: usize = 0x1CC; // float32
                 pub const m_flOutputMax: usize = 0x1D0; // float32
                 pub const m_bBackwards: usize = 0x1D4; // bool
-                pub const m_nSetMethod: usize = 0x1D8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1D8; // 
             }
             // Parent: None
             // Field count: 16
@@ -3400,7 +3400,7 @@ pub mod cs2_dumper {
             pub mod C_OP_SetFloat {
                 pub const m_InputValue: usize = 0x1C0; // CPerParticleFloatInput
                 pub const m_nOutputField: usize = 0x320; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x324; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x324; // 
                 pub const m_Lerp: usize = 0x328; // CPerParticleFloatInput
             }
             // Parent: CParticleFunctionInitializer
@@ -3418,7 +3418,7 @@ pub mod cs2_dumper {
                 pub const m_LocalSpaceTransform: usize = 0x268; // CParticleTransformInput
                 pub const m_flStartTime: usize = 0x2D0; // float32
                 pub const m_flEndTime: usize = 0x2D4; // float32
-                pub const m_nSetMethod: usize = 0x2D8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x2D8; // 
                 pub const m_bOffset: usize = 0x2DC; // bool
                 pub const m_bAccelerate: usize = 0x2DD; // bool
                 pub const m_flRemapBias: usize = 0x2E0; // float32
@@ -3664,7 +3664,7 @@ pub mod cs2_dumper {
                 pub const m_flInput2: usize = 0x330; // CPerParticleFloatInput
                 pub const m_flOutputRemap: usize = 0x490; // CParticleRemapFloatInput
                 pub const m_nOutputField: usize = 0x5F0; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x5F4; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x5F4; // 
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 10
@@ -3962,7 +3962,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_LockToPointList {
                 pub const m_nFieldOutput: usize = 0x1C0; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1C8; // CUtlVector<PointDefinition_t>
+                pub const m_pointList: usize = 0x1C8; // 
                 pub const m_bPlaceAlongPath: usize = 0x1E0; // bool
                 pub const m_bClosedLoop: usize = 0x1E1; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1E4; // int32
@@ -4059,7 +4059,7 @@ pub mod cs2_dumper {
             pub mod C_OP_SetFloatCollection {
                 pub const m_InputValue: usize = 0x1C0; // CParticleCollectionFloatInput
                 pub const m_nOutputField: usize = 0x320; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x324; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x324; // 
                 pub const m_Lerp: usize = 0x328; // CParticleCollectionFloatInput
             }
             // Parent: None
@@ -4144,7 +4144,7 @@ pub mod cs2_dumper {
                 pub const m_flInputMax: usize = 0x1018; // CPerParticleFloatInput
                 pub const m_flOutputMin: usize = 0x1178; // CPerParticleFloatInput
                 pub const m_flOutputMax: usize = 0x12D8; // CPerParticleFloatInput
-                pub const m_nSetMethod: usize = 0x1438; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1438; // 
                 pub const m_bDeltaTime: usize = 0x143C; // bool
             }
             // Parent: CParticleFunctionOperator
@@ -4239,7 +4239,7 @@ pub mod cs2_dumper {
             pub mod C_OP_SetVec {
                 pub const m_InputValue: usize = 0x1C0; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0x838; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x83C; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x83C; // 
                 pub const m_Lerp: usize = 0x840; // CPerParticleFloatInput
                 pub const m_bNormalizedOutput: usize = 0x9A0; // bool
             }
@@ -4409,7 +4409,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CParticleMassCalculationParameters {
-                pub const m_nMassMode: usize = 0x0; // 
+                pub const m_nMassMode: usize = 0x0; // ParticleMassMode_t
                 pub const m_flRadius: usize = 0x8; // CPerParticleFloatInput
                 pub const m_flNominalRadius: usize = 0x168; // CPerParticleFloatInput
                 pub const m_flScale: usize = 0x2C8; // CPerParticleFloatInput
@@ -4427,7 +4427,7 @@ pub mod cs2_dumper {
                 pub const m_flInputMax: usize = 0x1D0; // float32
                 pub const m_flOutputMin: usize = 0x1D4; // float32
                 pub const m_flOutputMax: usize = 0x1D8; // float32
-                pub const m_nSetMethod: usize = 0x1DC; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1DC; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -4454,7 +4454,7 @@ pub mod cs2_dumper {
             pub mod C_INIT_InitVec {
                 pub const m_InputValue: usize = 0x1C8; // CPerParticleVecInput
                 pub const m_nOutputField: usize = 0x840; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x844; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x844; // 
                 pub const m_bNormalizedOutput: usize = 0x848; // bool
                 pub const m_bWritePreviousPosition: usize = 0x849; // bool
             }
@@ -4551,7 +4551,7 @@ pub mod cs2_dumper {
                 pub const m_flInputMax: usize = 0x1CC; // float32
                 pub const m_flOutputMin: usize = 0x1D0; // float32
                 pub const m_flOutputMax: usize = 0x1D4; // float32
-                pub const m_nSetMethod: usize = 0x1D8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1D8; // 
                 pub const m_bActiveRange: usize = 0x1DC; // bool
                 pub const m_bSetPreviousParticle: usize = 0x1DD; // bool
             }
@@ -4581,7 +4581,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x1D0; // float32
                 pub const m_TransformStart: usize = 0x1D8; // CParticleTransformInput
                 pub const m_TransformEnd: usize = 0x240; // CParticleTransformInput
-                pub const m_nSetMethod: usize = 0x2A8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x2A8; // 
                 pub const m_bActiveRange: usize = 0x2AC; // bool
                 pub const m_bRadialCheck: usize = 0x2AD; // bool
             }
@@ -4735,7 +4735,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x5E8; // CPerParticleFloatInput
                 pub const m_vecWaveLength: usize = 0x748; // CPerParticleVecInput
                 pub const m_vecHarmonics: usize = 0xDC0; // CPerParticleVecInput
-                pub const m_nSetMethod: usize = 0x1438; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1438; // 
                 pub const m_nLocalSpaceControlPoint: usize = 0x143C; // int32
                 pub const m_b3D: usize = 0x1440; // bool
             }
@@ -4819,7 +4819,7 @@ pub mod cs2_dumper {
                 pub const m_flStartTime: usize = 0x1FC; // float32
                 pub const m_flEndTime: usize = 0x200; // float32
                 pub const m_flInterpRate: usize = 0x204; // float32
-                pub const m_nSetMethod: usize = 0x208; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x208; // 
                 pub const m_bOffset: usize = 0x20C; // bool
                 pub const m_bAccelerate: usize = 0x20D; // bool
             }
@@ -4904,7 +4904,7 @@ pub mod cs2_dumper {
                 pub const m_vInput2: usize = 0x840; // CPerParticleVecInput
                 pub const m_flOutputRemap: usize = 0xEB8; // CParticleRemapFloatInput
                 pub const m_nOutputField: usize = 0x1018; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x101C; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x101C; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 4
@@ -4940,7 +4940,7 @@ pub mod cs2_dumper {
             pub mod C_INIT_InitFloat {
                 pub const m_InputValue: usize = 0x1C8; // CPerParticleFloatInput
                 pub const m_nOutputField: usize = 0x328; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x32C; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x32C; // 
                 pub const m_InputStrength: usize = 0x330; // CPerParticleFloatInput
             }
             // Parent: CParticleFunctionInitializer
@@ -5205,7 +5205,7 @@ pub mod cs2_dumper {
                 pub const m_values: usize = 0x1E8; // CUtlVector<float32>
                 pub const m_nFieldInput: usize = 0x200; // ParticleAttributeIndex_t
                 pub const m_nFieldOutput: usize = 0x204; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x208; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x208; // 
                 pub const m_bModelFromRenderer: usize = 0x20C; // bool
             }
             // Parent: CParticleFunctionOperator
@@ -5246,7 +5246,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMax: usize = 0x1E0; // float32
                 pub const m_flStartTime: usize = 0x1E4; // float32
                 pub const m_flEndTime: usize = 0x1E8; // float32
-                pub const m_nSetMethod: usize = 0x1EC; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1EC; // 
                 pub const m_flRemapBias: usize = 0x1F0; // float32
             }
             // Parent: None
@@ -5338,7 +5338,7 @@ pub mod cs2_dumper {
                 pub const m_nTraceSet: usize = 0x834; // ParticleTraceSet_t
                 pub const m_flMaxTraceLength: usize = 0x838; // float32
                 pub const m_flLOSScale: usize = 0x83C; // float32
-                pub const m_nSetMethod: usize = 0x840; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x840; // 
                 pub const m_bActiveRange: usize = 0x844; // bool
                 pub const m_bAdditive: usize = 0x845; // bool
                 pub const m_vecComponentScale: usize = 0x848; // CPerParticleVecInput
@@ -5393,7 +5393,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMin: usize = 0x1D4; // float32
                 pub const m_flOutputMax: usize = 0x1D8; // float32
                 pub const m_bUseParticleVelocity: usize = 0x1DC; // bool
-                pub const m_nSetMethod: usize = 0x1E0; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1E0; // 
                 pub const m_bActiveRange: usize = 0x1E4; // bool
                 pub const m_bUseParticleNormal: usize = 0x1E5; // bool
             }
@@ -5550,7 +5550,7 @@ pub mod cs2_dumper {
                 pub const m_vecOutput: usize = 0x1C4; // Vector
                 pub const m_flStartTime: usize = 0x1D0; // float32
                 pub const m_flEndTime: usize = 0x1D4; // float32
-                pub const m_nSetMethod: usize = 0x1D8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1D8; // 
             }
             // Parent: CParticleFunctionPreEmission
             // Field count: 3
@@ -5669,7 +5669,7 @@ pub mod cs2_dumper {
                 pub const m_vecOutputMax: usize = 0x1E4; // Vector
                 pub const m_flStartTime: usize = 0x1F0; // float32
                 pub const m_flEndTime: usize = 0x1F4; // float32
-                pub const m_nSetMethod: usize = 0x1F8; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1F8; // 
                 pub const m_nControlPointNumber: usize = 0x1FC; // int32
                 pub const m_bLocalCoords: usize = 0x200; // bool
                 pub const m_flRemapBias: usize = 0x204; // float32
@@ -5687,7 +5687,7 @@ pub mod cs2_dumper {
                 pub const m_flInputMax: usize = 0x1D8; // float32
                 pub const m_flOutputMin: usize = 0x1DC; // float32
                 pub const m_flOutputMax: usize = 0x1E0; // float32
-                pub const m_nSetMethod: usize = 0x1E4; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1E4; // 
             }
             // Parent: CParticleFunctionEmitter
             // Field count: 15
@@ -5902,7 +5902,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_PointList {
                 pub const m_nFieldOutput: usize = 0x1C8; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1D0; // CUtlVector<PointDefinition_t>
+                pub const m_pointList: usize = 0x1D0; // 
                 pub const m_bPlaceAlongPath: usize = 0x1E8; // bool
                 pub const m_bClosedLoop: usize = 0x1E9; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1EC; // int32
@@ -5960,7 +5960,7 @@ pub mod cs2_dumper {
                 pub const m_nScaleControlPointField: usize = 0x1D8; // int32
                 pub const m_flOutputMin: usize = 0x1DC; // float32
                 pub const m_flOutputMax: usize = 0x1E0; // float32
-                pub const m_nSetMethod: usize = 0x1E4; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1E4; // 
                 pub const m_bActiveRange: usize = 0x1E8; // bool
                 pub const m_bInvert: usize = 0x1E9; // bool
                 pub const m_bWrap: usize = 0x1EA; // bool
@@ -6072,7 +6072,7 @@ pub mod cs2_dumper {
                 pub const m_nTraceSet: usize = 0x7D8; // ParticleTraceSet_t
                 pub const m_flMaxTraceLength: usize = 0x7E0; // CPerParticleFloatInput
                 pub const m_flLOSScale: usize = 0x940; // float32
-                pub const m_nSetMethod: usize = 0x944; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x944; // 
                 pub const m_bActiveRange: usize = 0x948; // bool
                 pub const m_vecDistanceScale: usize = 0x94C; // Vector
                 pub const m_flRemapBias: usize = 0x958; // float32
@@ -6176,7 +6176,7 @@ pub mod cs2_dumper {
                 pub const m_flInputMax: usize = 0x1C8; // float32
                 pub const m_flOutputMin: usize = 0x1CC; // float32
                 pub const m_flOutputMax: usize = 0x1D0; // float32
-                pub const m_nSetMethod: usize = 0x1D4; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1D4; // 
                 pub const m_bIgnoreDelta: usize = 0x1D8; // bool
             }
             // Parent: CParticleFunctionRenderer
@@ -6337,7 +6337,7 @@ pub mod cs2_dumper {
                 pub const m_flOutputMin: usize = 0x488; // CParticleCollectionFloatInput
                 pub const m_flOutputMax: usize = 0x5E8; // CParticleCollectionFloatInput
                 pub const m_bActiveRange: usize = 0x748; // bool
-                pub const m_nSetMethod: usize = 0x74C; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x74C; // 
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 2
@@ -6533,7 +6533,7 @@ pub mod cs2_dumper {
                 pub const m_nOutputStartField: usize = 0x2A4; // int32
                 pub const m_nOutputEndCP: usize = 0x2A8; // int32
                 pub const m_nOutputEndField: usize = 0x2AC; // int32
-                pub const m_nSetMethod: usize = 0x2B0; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x2B0; // 
                 pub const m_bActiveRange: usize = 0x2B4; // bool
                 pub const m_bRadialCheck: usize = 0x2B5; // bool
             }
@@ -6587,7 +6587,7 @@ pub mod cs2_dumper {
                 pub const m_flInput2: usize = 0x328; // CPerParticleFloatInput
                 pub const m_flOutputRemap: usize = 0x488; // CParticleRemapFloatInput
                 pub const m_nOutputField: usize = 0x5E8; // ParticleAttributeIndex_t
-                pub const m_nSetMethod: usize = 0x5EC; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x5EC; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 10
@@ -6604,7 +6604,7 @@ pub mod cs2_dumper {
                 pub const m_nCPScale: usize = 0x1D4; // int32
                 pub const m_nCPFieldMin: usize = 0x1D8; // int32
                 pub const m_nCPFieldMax: usize = 0x1DC; // int32
-                pub const m_nSetMethod: usize = 0x1E0; // ParticleSetMethod_t
+                pub const m_nSetMethod: usize = 0x1E0; // 
             }
             // Parent: CParticleFunctionRenderer
             // Field count: 8
