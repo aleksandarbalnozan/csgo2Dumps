@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 20:58:02.279232600 UTC
+// 2025-06-23 23:06:44.218709200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -392,7 +392,7 @@ pub mod cs2_dumper {
                 pub const m_name: usize = 0x8; // CUtlString
                 pub const m_nameToken: usize = 0x10; // CUtlStringToken
                 pub const m_nParamCount: usize = 0x14; // int32
-                pub const m_nIndex: usize = 0x18; // FuseFunctionIndex_t
+                pub const m_nIndex: usize = 0x18; // 
                 pub const m_bIsPure: usize = 0x1A; // bool
             }
             // Parent: None

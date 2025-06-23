@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 20:58:02.279232600 UTC
+// 2025-06-23 23:06:44.218709200 UTC
 
 #pragma once
 
@@ -392,7 +392,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_nameToken = 0x10; // CUtlStringToken
                 constexpr std::ptrdiff_t m_nParamCount = 0x14; // int32
-                constexpr std::ptrdiff_t m_nIndex = 0x18; // FuseFunctionIndex_t
+                constexpr std::ptrdiff_t m_nIndex = 0x18; // 
                 constexpr std::ptrdiff_t m_bIsPure = 0x1A; // bool
             }
             // Parent: None

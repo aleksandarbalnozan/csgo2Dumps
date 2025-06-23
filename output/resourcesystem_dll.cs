@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 20:58:02.279232600 UTC
+// 2025-06-23 23:06:44.218709200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: resourcesystem.dll
@@ -387,7 +387,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_name = 0x8; // CUtlString
             public const nint m_nameToken = 0x10; // CUtlStringToken
             public const nint m_nParamCount = 0x14; // int32
-            public const nint m_nIndex = 0x18; // FuseFunctionIndex_t
+            public const nint m_nIndex = 0x18; // 
             public const nint m_bIsPure = 0x1A; // bool
         }
         // Parent: None

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 20:58:02.279232600 UTC
+// 2025-06-23 23:06:44.218709200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -713,7 +713,7 @@ namespace CS2Dumper.Schemas {
         public static class C_OP_RemapGravityToVector {
             public const nint m_vInput1 = 0x1C0; // CPerParticleVecInput
             public const nint m_nOutputField = 0x838; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x83C; // 
+            public const nint m_nSetMethod = 0x83C; // ParticleSetMethod_t
             public const nint m_bNormalizedOutput = 0x840; // bool
         }
         // Parent: CParticleFunctionOperator
@@ -1542,7 +1542,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_CollisionGroupName = 0x820; // char[128]
             public const nint m_nTraceSet = 0x8A0; // ParticleTraceSet_t
             public const nint m_bLOS = 0x8A4; // bool
-            public const nint m_nSetMethod = 0x8A8; // 
+            public const nint m_nSetMethod = 0x8A8; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionOperator
         // Field count: 1
@@ -1654,7 +1654,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMax = 0x1DC; // float32
             public const nint m_flStartTime = 0x1E0; // float32
             public const nint m_flEndTime = 0x1E4; // float32
-            public const nint m_nSetMethod = 0x1E8; // 
+            public const nint m_nSetMethod = 0x1E8; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x1EC; // bool
             public const nint m_flRemapBias = 0x1F0; // float32
         }
@@ -2002,7 +2002,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInputMax = 0x1DC; // float32
             public const nint m_flOutputMin = 0x1E0; // float32
             public const nint m_flOutputMax = 0x1E4; // float32
-            public const nint m_nSetMethod = 0x1E8; // 
+            public const nint m_nSetMethod = 0x1E8; // ParticleSetMethod_t
             public const nint m_bPerParticle = 0x1EC; // bool
         }
         // Parent: CParticleFunctionInitializer
@@ -2094,7 +2094,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vInput1 = 0x1D0; // CPerParticleVecInput
             public const nint m_vInput2 = 0x848; // CPerParticleVecInput
             public const nint m_nOutputField = 0xEC0; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0xEC4; // 
+            public const nint m_nSetMethod = 0xEC4; // ParticleSetMethod_t
             public const nint m_bNormalizedOutput = 0xEC8; // bool
         }
         // Parent: CParticleFunctionOperator
@@ -2103,7 +2103,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RemapTransformVisibilityToVector {
-            public const nint m_nSetMethod = 0x1C0; // 
+            public const nint m_nSetMethod = 0x1C0; // ParticleSetMethod_t
             public const nint m_TransformInput = 0x1C8; // CParticleTransformInput
             public const nint m_nFieldOutput = 0x230; // ParticleAttributeIndex_t
             public const nint m_flInputMin = 0x234; // float32
@@ -2659,7 +2659,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RemapTransformVisibilityToScalar {
-            public const nint m_nSetMethod = 0x1C0; // 
+            public const nint m_nSetMethod = 0x1C0; // ParticleSetMethod_t
             public const nint m_TransformInput = 0x1C8; // CParticleTransformInput
             public const nint m_nFieldOutput = 0x230; // ParticleAttributeIndex_t
             public const nint m_flInputMin = 0x234; // float32
@@ -2771,7 +2771,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flStartTime = 0x1DC; // float32
             public const nint m_flEndTime = 0x1E0; // float32
             public const nint m_flInterpRate = 0x1E4; // float32
-            public const nint m_nSetMethod = 0x1E8; // 
+            public const nint m_nSetMethod = 0x1E8; // ParticleSetMethod_t
         }
         // Parent: CParticleFunction
         // Field count: 3
@@ -2875,7 +2875,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecOutputMax = 0x1D8; // Vector
             public const nint m_TransformStart = 0x1E8; // CParticleTransformInput
             public const nint m_TransformEnd = 0x250; // CParticleTransformInput
-            public const nint m_nSetMethod = 0x2B8; // 
+            public const nint m_nSetMethod = 0x2B8; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x2BC; // bool
             public const nint m_bRadialCheck = 0x2BD; // bool
         }
@@ -2991,7 +2991,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMax = 0x5E8; // CPerParticleFloatInput
             public const nint m_TransformStart = 0x748; // CParticleTransformInput
             public const nint m_TransformEnd = 0x7B0; // CParticleTransformInput
-            public const nint m_nSetMethod = 0x818; // 
+            public const nint m_nSetMethod = 0x818; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x81C; // bool
             public const nint m_bAdditive = 0x81D; // bool
             public const nint m_bCapsule = 0x81E; // bool
@@ -3192,7 +3192,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vInput1 = 0x1C8; // CPerParticleVecInput
             public const nint m_vInput2 = 0x840; // CPerParticleVecInput
             public const nint m_nOutputField = 0xEB8; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0xEBC; // 
+            public const nint m_nSetMethod = 0xEBC; // ParticleSetMethod_t
             public const nint m_bNormalizedOutput = 0xEC0; // bool
         }
         // Parent: CParticleFunctionInitializer
@@ -3266,7 +3266,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMin = 0x1CC; // float32
             public const nint m_flOutputMax = 0x1D0; // float32
             public const nint m_bBackwards = 0x1D4; // bool
-            public const nint m_nSetMethod = 0x1D8; // 
+            public const nint m_nSetMethod = 0x1D8; // ParticleSetMethod_t
         }
         // Parent: None
         // Field count: 16
@@ -3321,7 +3321,7 @@ namespace CS2Dumper.Schemas {
         public static class C_OP_SetFloat {
             public const nint m_InputValue = 0x1C0; // CPerParticleFloatInput
             public const nint m_nOutputField = 0x320; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x324; // 
+            public const nint m_nSetMethod = 0x324; // ParticleSetMethod_t
             public const nint m_Lerp = 0x328; // CPerParticleFloatInput
         }
         // Parent: CParticleFunctionInitializer
@@ -3339,7 +3339,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_LocalSpaceTransform = 0x268; // CParticleTransformInput
             public const nint m_flStartTime = 0x2D0; // float32
             public const nint m_flEndTime = 0x2D4; // float32
-            public const nint m_nSetMethod = 0x2D8; // 
+            public const nint m_nSetMethod = 0x2D8; // ParticleSetMethod_t
             public const nint m_bOffset = 0x2DC; // bool
             public const nint m_bAccelerate = 0x2DD; // bool
             public const nint m_flRemapBias = 0x2E0; // float32
@@ -3585,7 +3585,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInput2 = 0x330; // CPerParticleFloatInput
             public const nint m_flOutputRemap = 0x490; // CParticleRemapFloatInput
             public const nint m_nOutputField = 0x5F0; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x5F4; // 
+            public const nint m_nSetMethod = 0x5F4; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 10
@@ -3980,7 +3980,7 @@ namespace CS2Dumper.Schemas {
         public static class C_OP_SetFloatCollection {
             public const nint m_InputValue = 0x1C0; // CParticleCollectionFloatInput
             public const nint m_nOutputField = 0x320; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x324; // 
+            public const nint m_nSetMethod = 0x324; // ParticleSetMethod_t
             public const nint m_Lerp = 0x328; // CParticleCollectionFloatInput
         }
         // Parent: None
@@ -4065,7 +4065,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInputMax = 0x1018; // CPerParticleFloatInput
             public const nint m_flOutputMin = 0x1178; // CPerParticleFloatInput
             public const nint m_flOutputMax = 0x12D8; // CPerParticleFloatInput
-            public const nint m_nSetMethod = 0x1438; // 
+            public const nint m_nSetMethod = 0x1438; // ParticleSetMethod_t
             public const nint m_bDeltaTime = 0x143C; // bool
         }
         // Parent: CParticleFunctionOperator
@@ -4160,7 +4160,7 @@ namespace CS2Dumper.Schemas {
         public static class C_OP_SetVec {
             public const nint m_InputValue = 0x1C0; // CPerParticleVecInput
             public const nint m_nOutputField = 0x838; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x83C; // 
+            public const nint m_nSetMethod = 0x83C; // ParticleSetMethod_t
             public const nint m_Lerp = 0x840; // CPerParticleFloatInput
             public const nint m_bNormalizedOutput = 0x9A0; // bool
         }
@@ -4348,7 +4348,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInputMax = 0x1D0; // float32
             public const nint m_flOutputMin = 0x1D4; // float32
             public const nint m_flOutputMax = 0x1D8; // float32
-            public const nint m_nSetMethod = 0x1DC; // 
+            public const nint m_nSetMethod = 0x1DC; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionOperator
         // Field count: 1
@@ -4375,7 +4375,7 @@ namespace CS2Dumper.Schemas {
         public static class C_INIT_InitVec {
             public const nint m_InputValue = 0x1C8; // CPerParticleVecInput
             public const nint m_nOutputField = 0x840; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x844; // 
+            public const nint m_nSetMethod = 0x844; // ParticleSetMethod_t
             public const nint m_bNormalizedOutput = 0x848; // bool
             public const nint m_bWritePreviousPosition = 0x849; // bool
         }
@@ -4472,7 +4472,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInputMax = 0x1CC; // float32
             public const nint m_flOutputMin = 0x1D0; // float32
             public const nint m_flOutputMax = 0x1D4; // float32
-            public const nint m_nSetMethod = 0x1D8; // 
+            public const nint m_nSetMethod = 0x1D8; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x1DC; // bool
             public const nint m_bSetPreviousParticle = 0x1DD; // bool
         }
@@ -4502,7 +4502,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMax = 0x1D0; // float32
             public const nint m_TransformStart = 0x1D8; // CParticleTransformInput
             public const nint m_TransformEnd = 0x240; // CParticleTransformInput
-            public const nint m_nSetMethod = 0x2A8; // 
+            public const nint m_nSetMethod = 0x2A8; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x2AC; // bool
             public const nint m_bRadialCheck = 0x2AD; // bool
         }
@@ -4656,7 +4656,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMax = 0x5E8; // CPerParticleFloatInput
             public const nint m_vecWaveLength = 0x748; // CPerParticleVecInput
             public const nint m_vecHarmonics = 0xDC0; // CPerParticleVecInput
-            public const nint m_nSetMethod = 0x1438; // 
+            public const nint m_nSetMethod = 0x1438; // ParticleSetMethod_t
             public const nint m_nLocalSpaceControlPoint = 0x143C; // int32
             public const nint m_b3D = 0x1440; // bool
         }
@@ -4740,7 +4740,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flStartTime = 0x1FC; // float32
             public const nint m_flEndTime = 0x200; // float32
             public const nint m_flInterpRate = 0x204; // float32
-            public const nint m_nSetMethod = 0x208; // 
+            public const nint m_nSetMethod = 0x208; // ParticleSetMethod_t
             public const nint m_bOffset = 0x20C; // bool
             public const nint m_bAccelerate = 0x20D; // bool
         }
@@ -4825,7 +4825,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vInput2 = 0x840; // CPerParticleVecInput
             public const nint m_flOutputRemap = 0xEB8; // CParticleRemapFloatInput
             public const nint m_nOutputField = 0x1018; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x101C; // 
+            public const nint m_nSetMethod = 0x101C; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionOperator
         // Field count: 4
@@ -4861,7 +4861,7 @@ namespace CS2Dumper.Schemas {
         public static class C_INIT_InitFloat {
             public const nint m_InputValue = 0x1C8; // CPerParticleFloatInput
             public const nint m_nOutputField = 0x328; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x32C; // 
+            public const nint m_nSetMethod = 0x32C; // ParticleSetMethod_t
             public const nint m_InputStrength = 0x330; // CPerParticleFloatInput
         }
         // Parent: CParticleFunctionInitializer
@@ -5126,7 +5126,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_values = 0x1E8; // CUtlVector<float32>
             public const nint m_nFieldInput = 0x200; // ParticleAttributeIndex_t
             public const nint m_nFieldOutput = 0x204; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x208; // 
+            public const nint m_nSetMethod = 0x208; // ParticleSetMethod_t
             public const nint m_bModelFromRenderer = 0x20C; // bool
         }
         // Parent: CParticleFunctionOperator
@@ -5167,7 +5167,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMax = 0x1E0; // float32
             public const nint m_flStartTime = 0x1E4; // float32
             public const nint m_flEndTime = 0x1E8; // float32
-            public const nint m_nSetMethod = 0x1EC; // 
+            public const nint m_nSetMethod = 0x1EC; // ParticleSetMethod_t
             public const nint m_flRemapBias = 0x1F0; // float32
         }
         // Parent: None
@@ -5259,7 +5259,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nTraceSet = 0x834; // ParticleTraceSet_t
             public const nint m_flMaxTraceLength = 0x838; // float32
             public const nint m_flLOSScale = 0x83C; // float32
-            public const nint m_nSetMethod = 0x840; // 
+            public const nint m_nSetMethod = 0x840; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x844; // bool
             public const nint m_bAdditive = 0x845; // bool
             public const nint m_vecComponentScale = 0x848; // CPerParticleVecInput
@@ -5314,7 +5314,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMin = 0x1D4; // float32
             public const nint m_flOutputMax = 0x1D8; // float32
             public const nint m_bUseParticleVelocity = 0x1DC; // bool
-            public const nint m_nSetMethod = 0x1E0; // 
+            public const nint m_nSetMethod = 0x1E0; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x1E4; // bool
             public const nint m_bUseParticleNormal = 0x1E5; // bool
         }
@@ -5471,7 +5471,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecOutput = 0x1C4; // Vector
             public const nint m_flStartTime = 0x1D0; // float32
             public const nint m_flEndTime = 0x1D4; // float32
-            public const nint m_nSetMethod = 0x1D8; // 
+            public const nint m_nSetMethod = 0x1D8; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionPreEmission
         // Field count: 3
@@ -5590,7 +5590,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecOutputMax = 0x1E4; // Vector
             public const nint m_flStartTime = 0x1F0; // float32
             public const nint m_flEndTime = 0x1F4; // float32
-            public const nint m_nSetMethod = 0x1F8; // 
+            public const nint m_nSetMethod = 0x1F8; // ParticleSetMethod_t
             public const nint m_nControlPointNumber = 0x1FC; // int32
             public const nint m_bLocalCoords = 0x200; // bool
             public const nint m_flRemapBias = 0x204; // float32
@@ -5608,7 +5608,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInputMax = 0x1D8; // float32
             public const nint m_flOutputMin = 0x1DC; // float32
             public const nint m_flOutputMax = 0x1E0; // float32
-            public const nint m_nSetMethod = 0x1E4; // 
+            public const nint m_nSetMethod = 0x1E4; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionEmitter
         // Field count: 15
@@ -5881,7 +5881,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nScaleControlPointField = 0x1D8; // int32
             public const nint m_flOutputMin = 0x1DC; // float32
             public const nint m_flOutputMax = 0x1E0; // float32
-            public const nint m_nSetMethod = 0x1E4; // 
+            public const nint m_nSetMethod = 0x1E4; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x1E8; // bool
             public const nint m_bInvert = 0x1E9; // bool
             public const nint m_bWrap = 0x1EA; // bool
@@ -5993,7 +5993,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nTraceSet = 0x7D8; // ParticleTraceSet_t
             public const nint m_flMaxTraceLength = 0x7E0; // CPerParticleFloatInput
             public const nint m_flLOSScale = 0x940; // float32
-            public const nint m_nSetMethod = 0x944; // 
+            public const nint m_nSetMethod = 0x944; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x948; // bool
             public const nint m_vecDistanceScale = 0x94C; // Vector
             public const nint m_flRemapBias = 0x958; // float32
@@ -6097,7 +6097,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInputMax = 0x1C8; // float32
             public const nint m_flOutputMin = 0x1CC; // float32
             public const nint m_flOutputMax = 0x1D0; // float32
-            public const nint m_nSetMethod = 0x1D4; // 
+            public const nint m_nSetMethod = 0x1D4; // ParticleSetMethod_t
             public const nint m_bIgnoreDelta = 0x1D8; // bool
         }
         // Parent: CParticleFunctionRenderer
@@ -6258,7 +6258,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOutputMin = 0x488; // CParticleCollectionFloatInput
             public const nint m_flOutputMax = 0x5E8; // CParticleCollectionFloatInput
             public const nint m_bActiveRange = 0x748; // bool
-            public const nint m_nSetMethod = 0x74C; // 
+            public const nint m_nSetMethod = 0x74C; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 2
@@ -6454,7 +6454,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nOutputStartField = 0x2A4; // int32
             public const nint m_nOutputEndCP = 0x2A8; // int32
             public const nint m_nOutputEndField = 0x2AC; // int32
-            public const nint m_nSetMethod = 0x2B0; // 
+            public const nint m_nSetMethod = 0x2B0; // ParticleSetMethod_t
             public const nint m_bActiveRange = 0x2B4; // bool
             public const nint m_bRadialCheck = 0x2B5; // bool
         }
@@ -6508,7 +6508,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInput2 = 0x328; // CPerParticleFloatInput
             public const nint m_flOutputRemap = 0x488; // CParticleRemapFloatInput
             public const nint m_nOutputField = 0x5E8; // ParticleAttributeIndex_t
-            public const nint m_nSetMethod = 0x5EC; // 
+            public const nint m_nSetMethod = 0x5EC; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionOperator
         // Field count: 10
@@ -6525,7 +6525,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nCPScale = 0x1D4; // int32
             public const nint m_nCPFieldMin = 0x1D8; // int32
             public const nint m_nCPFieldMax = 0x1DC; // int32
-            public const nint m_nSetMethod = 0x1E0; // 
+            public const nint m_nSetMethod = 0x1E0; // ParticleSetMethod_t
         }
         // Parent: CParticleFunctionRenderer
         // Field count: 8

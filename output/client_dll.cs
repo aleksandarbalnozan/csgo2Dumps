@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 20:58:02.279232600 UTC
+// 2025-06-23 23:06:44.218709200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -446,14 +446,14 @@ namespace CS2Dumper.Schemas {
             public const nint m_nLastAddDecal = 0xAAC; // int32
             public const nint m_nDecalsAdded = 0xAB0; // int32
             public const nint m_iOldHealth = 0xAB4; // int32
-            public const nint m_nRenderMode = 0xAB8; // 
-            public const nint m_nRenderFX = 0xAB9; // 
+            public const nint m_nRenderMode = 0xAB8; // RenderMode_t
+            public const nint m_nRenderFX = 0xAB9; // RenderFx_t
             public const nint m_bAllowFadeInView = 0xABA; // bool
             public const nint m_clrRender = 0xAD8; // Color
             public const nint m_vecRenderAttributes = 0xAE0; // C_UtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
             public const nint m_bRenderToCubemaps = 0xB48; // bool
             public const nint m_bNoInterpolate = 0xB49; // bool
-            public const nint m_Collision = 0xB50; // CCollisionProperty
+            public const nint m_Collision = 0xB50; // 
             public const nint m_Glow = 0xC00; // CGlowProperty
             public const nint m_flGlowBackfaceMult = 0xC58; // float32
             public const nint m_fadeMinDist = 0xC5C; // float32
@@ -714,7 +714,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOldPlayerZ = 0x138; // float32
             public const nint m_flOldPlayerViewOffsetZ = 0x13C; // float32
             public const nint m_CurrentFog = 0x140; // fogparams_t
-            public const nint m_hOldFogController = 0x1A8; // 
+            public const nint m_hOldFogController = 0x1A8; // CHandle<C_FogController>
             public const nint m_bOverrideFogColor = 0x1AC; // bool[5]
             public const nint m_OverrideFogColor = 0x1B1; // Color[5]
             public const nint m_bOverrideFogStartEnd = 0x1C5; // bool[5]
@@ -885,7 +885,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bReleaseRagdoll = 0xFA4; // bool
             public const nint m_iEyeAttachment = 0xFA5; // AttachmentHandle_t
             public const nint m_bFadingOut = 0xFA6; // bool
-            public const nint m_flScaleEnd = 0xFA8; // float32[10]
+            public const nint m_flScaleEnd = 0xFA8; // 
             public const nint m_flScaleTimeStart = 0xFD0; // GameTime_t[10]
             public const nint m_flScaleTimeEnd = 0xFF8; // GameTime_t[10]
         }
@@ -2050,7 +2050,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_hCtrl (CHandle<CFogController>)
         public static class C_fogplayerparams_t {
-            public const nint m_hCtrl = 0x8; // 
+            public const nint m_hCtrl = 0x8; // CHandle<C_FogController>
             public const nint m_flTransitionTime = 0xC; // float32
             public const nint m_OldColor = 0x10; // Color
             public const nint m_flOldStart = 0x14; // float32
@@ -5116,7 +5116,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecMins = 0x40; // Vector
             public const nint m_vecMaxs = 0x4C; // Vector
             public const nint m_usSolidFlags = 0x5A; // uint8
-            public const nint m_nSolidType = 0x5B; // 
+            public const nint m_nSolidType = 0x5B; // SolidType_t
             public const nint m_triggerBloat = 0x5C; // uint8
             public const nint m_nSurroundType = 0x5D; // SurroundingBoundsType_t
             public const nint m_CollisionGroup = 0x5E; // uint8
@@ -5802,7 +5802,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecBaseVelocity = 0x430; // Vector
             public const nint m_hEffectEntity = 0x43C; // CHandle<C_BaseEntity>
             public const nint m_hOwnerEntity = 0x440; // CHandle<C_BaseEntity>
-            public const nint m_MoveCollide = 0x444; // 
+            public const nint m_MoveCollide = 0x444; // MoveCollide_t
             public const nint m_MoveType = 0x445; // MoveType_t
             public const nint m_nActualMoveType = 0x446; // MoveType_t
             public const nint m_flWaterLevel = 0x448; // float32
@@ -6014,7 +6014,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_bIsActive (bool)
         public static class C_EnvScreenOverlay {
             public const nint m_iszOverlayNames = 0x568; // CUtlSymbolLarge[10]
-            public const nint m_flOverlayTimes = 0x5B8; // float32[10]
+            public const nint m_flOverlayTimes = 0x5B8; // 
             public const nint m_flStartTime = 0x5E0; // GameTime_t
             public const nint m_iDesiredOverlay = 0x5E4; // int32
             public const nint m_bIsActive = 0x5E8; // bool
@@ -6063,20 +6063,20 @@ namespace CS2Dumper.Schemas {
             public const nint m_nCrosshairDeltaDistance = 0xD38; // int32
             public const nint m_bIsFullAuto = 0xD3C; // bool
             public const nint m_nNumBullets = 0xD40; // int32
-            public const nint m_flCycleTime = 0xD44; // 
-            public const nint m_flMaxSpeed = 0xD4C; // 
-            public const nint m_flSpread = 0xD54; // 
-            public const nint m_flInaccuracyCrouch = 0xD5C; // 
-            public const nint m_flInaccuracyStand = 0xD64; // 
-            public const nint m_flInaccuracyJump = 0xD6C; // 
-            public const nint m_flInaccuracyLand = 0xD74; // 
-            public const nint m_flInaccuracyLadder = 0xD7C; // 
-            public const nint m_flInaccuracyFire = 0xD84; // 
-            public const nint m_flInaccuracyMove = 0xD8C; // 
-            public const nint m_flRecoilAngle = 0xD94; // 
-            public const nint m_flRecoilAngleVariance = 0xD9C; // 
-            public const nint m_flRecoilMagnitude = 0xDA4; // 
-            public const nint m_flRecoilMagnitudeVariance = 0xDAC; // 
+            public const nint m_flCycleTime = 0xD44; // CFiringModeFloat
+            public const nint m_flMaxSpeed = 0xD4C; // CFiringModeFloat
+            public const nint m_flSpread = 0xD54; // CFiringModeFloat
+            public const nint m_flInaccuracyCrouch = 0xD5C; // CFiringModeFloat
+            public const nint m_flInaccuracyStand = 0xD64; // CFiringModeFloat
+            public const nint m_flInaccuracyJump = 0xD6C; // CFiringModeFloat
+            public const nint m_flInaccuracyLand = 0xD74; // CFiringModeFloat
+            public const nint m_flInaccuracyLadder = 0xD7C; // CFiringModeFloat
+            public const nint m_flInaccuracyFire = 0xD84; // CFiringModeFloat
+            public const nint m_flInaccuracyMove = 0xD8C; // CFiringModeFloat
+            public const nint m_flRecoilAngle = 0xD94; // CFiringModeFloat
+            public const nint m_flRecoilAngleVariance = 0xD9C; // CFiringModeFloat
+            public const nint m_flRecoilMagnitude = 0xDA4; // CFiringModeFloat
+            public const nint m_flRecoilMagnitudeVariance = 0xDAC; // CFiringModeFloat
             public const nint m_nTracerFrequency = 0xDB4; // CFiringModeInt
             public const nint m_flInaccuracyJumpInitial = 0xDBC; // float32
             public const nint m_flInaccuracyJumpApex = 0xDC0; // float32
@@ -6339,7 +6339,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_inertiaScale = 0x1118; // float32
             public const nint m_vecDamagePosition = 0x111C; // Vector
             public const nint m_vecDamageDirection = 0x1128; // Vector
-            public const nint m_nDamageType = 0x1134; // DamageTypes_t
+            public const nint m_nDamageType = 0x1134; // 
         }
         // Parent: C_CSGO_TeamPreviewCamera
         // Field count: 0

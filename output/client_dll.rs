@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 20:58:02.279232600 UTC
+// 2025-06-23 23:06:44.218709200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -456,14 +456,14 @@ pub mod cs2_dumper {
                 pub const m_nLastAddDecal: usize = 0xAAC; // int32
                 pub const m_nDecalsAdded: usize = 0xAB0; // int32
                 pub const m_iOldHealth: usize = 0xAB4; // int32
-                pub const m_nRenderMode: usize = 0xAB8; // 
-                pub const m_nRenderFX: usize = 0xAB9; // 
+                pub const m_nRenderMode: usize = 0xAB8; // RenderMode_t
+                pub const m_nRenderFX: usize = 0xAB9; // RenderFx_t
                 pub const m_bAllowFadeInView: usize = 0xABA; // bool
                 pub const m_clrRender: usize = 0xAD8; // Color
                 pub const m_vecRenderAttributes: usize = 0xAE0; // C_UtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
                 pub const m_bRenderToCubemaps: usize = 0xB48; // bool
                 pub const m_bNoInterpolate: usize = 0xB49; // bool
-                pub const m_Collision: usize = 0xB50; // CCollisionProperty
+                pub const m_Collision: usize = 0xB50; // 
                 pub const m_Glow: usize = 0xC00; // CGlowProperty
                 pub const m_flGlowBackfaceMult: usize = 0xC58; // float32
                 pub const m_fadeMinDist: usize = 0xC5C; // float32
@@ -724,7 +724,7 @@ pub mod cs2_dumper {
                 pub const m_flOldPlayerZ: usize = 0x138; // float32
                 pub const m_flOldPlayerViewOffsetZ: usize = 0x13C; // float32
                 pub const m_CurrentFog: usize = 0x140; // fogparams_t
-                pub const m_hOldFogController: usize = 0x1A8; // 
+                pub const m_hOldFogController: usize = 0x1A8; // CHandle<C_FogController>
                 pub const m_bOverrideFogColor: usize = 0x1AC; // bool[5]
                 pub const m_OverrideFogColor: usize = 0x1B1; // Color[5]
                 pub const m_bOverrideFogStartEnd: usize = 0x1C5; // bool[5]
@@ -895,7 +895,7 @@ pub mod cs2_dumper {
                 pub const m_bReleaseRagdoll: usize = 0xFA4; // bool
                 pub const m_iEyeAttachment: usize = 0xFA5; // AttachmentHandle_t
                 pub const m_bFadingOut: usize = 0xFA6; // bool
-                pub const m_flScaleEnd: usize = 0xFA8; // float32[10]
+                pub const m_flScaleEnd: usize = 0xFA8; // 
                 pub const m_flScaleTimeStart: usize = 0xFD0; // GameTime_t[10]
                 pub const m_flScaleTimeEnd: usize = 0xFF8; // GameTime_t[10]
             }
@@ -2060,7 +2060,7 @@ pub mod cs2_dumper {
             // Metadata:
             // NetworkVarNames: m_hCtrl (CHandle<CFogController>)
             pub mod C_fogplayerparams_t {
-                pub const m_hCtrl: usize = 0x8; // 
+                pub const m_hCtrl: usize = 0x8; // CHandle<C_FogController>
                 pub const m_flTransitionTime: usize = 0xC; // float32
                 pub const m_OldColor: usize = 0x10; // Color
                 pub const m_flOldStart: usize = 0x14; // float32
@@ -5126,7 +5126,7 @@ pub mod cs2_dumper {
                 pub const m_vecMins: usize = 0x40; // Vector
                 pub const m_vecMaxs: usize = 0x4C; // Vector
                 pub const m_usSolidFlags: usize = 0x5A; // uint8
-                pub const m_nSolidType: usize = 0x5B; // 
+                pub const m_nSolidType: usize = 0x5B; // SolidType_t
                 pub const m_triggerBloat: usize = 0x5C; // uint8
                 pub const m_nSurroundType: usize = 0x5D; // SurroundingBoundsType_t
                 pub const m_CollisionGroup: usize = 0x5E; // uint8
@@ -5812,7 +5812,7 @@ pub mod cs2_dumper {
                 pub const m_vecBaseVelocity: usize = 0x430; // Vector
                 pub const m_hEffectEntity: usize = 0x43C; // CHandle<C_BaseEntity>
                 pub const m_hOwnerEntity: usize = 0x440; // CHandle<C_BaseEntity>
-                pub const m_MoveCollide: usize = 0x444; // 
+                pub const m_MoveCollide: usize = 0x444; // MoveCollide_t
                 pub const m_MoveType: usize = 0x445; // MoveType_t
                 pub const m_nActualMoveType: usize = 0x446; // MoveType_t
                 pub const m_flWaterLevel: usize = 0x448; // float32
@@ -6024,7 +6024,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_bIsActive (bool)
             pub mod C_EnvScreenOverlay {
                 pub const m_iszOverlayNames: usize = 0x568; // CUtlSymbolLarge[10]
-                pub const m_flOverlayTimes: usize = 0x5B8; // float32[10]
+                pub const m_flOverlayTimes: usize = 0x5B8; // 
                 pub const m_flStartTime: usize = 0x5E0; // GameTime_t
                 pub const m_iDesiredOverlay: usize = 0x5E4; // int32
                 pub const m_bIsActive: usize = 0x5E8; // bool
@@ -6073,20 +6073,20 @@ pub mod cs2_dumper {
                 pub const m_nCrosshairDeltaDistance: usize = 0xD38; // int32
                 pub const m_bIsFullAuto: usize = 0xD3C; // bool
                 pub const m_nNumBullets: usize = 0xD40; // int32
-                pub const m_flCycleTime: usize = 0xD44; // 
-                pub const m_flMaxSpeed: usize = 0xD4C; // 
-                pub const m_flSpread: usize = 0xD54; // 
-                pub const m_flInaccuracyCrouch: usize = 0xD5C; // 
-                pub const m_flInaccuracyStand: usize = 0xD64; // 
-                pub const m_flInaccuracyJump: usize = 0xD6C; // 
-                pub const m_flInaccuracyLand: usize = 0xD74; // 
-                pub const m_flInaccuracyLadder: usize = 0xD7C; // 
-                pub const m_flInaccuracyFire: usize = 0xD84; // 
-                pub const m_flInaccuracyMove: usize = 0xD8C; // 
-                pub const m_flRecoilAngle: usize = 0xD94; // 
-                pub const m_flRecoilAngleVariance: usize = 0xD9C; // 
-                pub const m_flRecoilMagnitude: usize = 0xDA4; // 
-                pub const m_flRecoilMagnitudeVariance: usize = 0xDAC; // 
+                pub const m_flCycleTime: usize = 0xD44; // CFiringModeFloat
+                pub const m_flMaxSpeed: usize = 0xD4C; // CFiringModeFloat
+                pub const m_flSpread: usize = 0xD54; // CFiringModeFloat
+                pub const m_flInaccuracyCrouch: usize = 0xD5C; // CFiringModeFloat
+                pub const m_flInaccuracyStand: usize = 0xD64; // CFiringModeFloat
+                pub const m_flInaccuracyJump: usize = 0xD6C; // CFiringModeFloat
+                pub const m_flInaccuracyLand: usize = 0xD74; // CFiringModeFloat
+                pub const m_flInaccuracyLadder: usize = 0xD7C; // CFiringModeFloat
+                pub const m_flInaccuracyFire: usize = 0xD84; // CFiringModeFloat
+                pub const m_flInaccuracyMove: usize = 0xD8C; // CFiringModeFloat
+                pub const m_flRecoilAngle: usize = 0xD94; // CFiringModeFloat
+                pub const m_flRecoilAngleVariance: usize = 0xD9C; // CFiringModeFloat
+                pub const m_flRecoilMagnitude: usize = 0xDA4; // CFiringModeFloat
+                pub const m_flRecoilMagnitudeVariance: usize = 0xDAC; // CFiringModeFloat
                 pub const m_nTracerFrequency: usize = 0xDB4; // CFiringModeInt
                 pub const m_flInaccuracyJumpInitial: usize = 0xDBC; // float32
                 pub const m_flInaccuracyJumpApex: usize = 0xDC0; // float32
@@ -6349,7 +6349,7 @@ pub mod cs2_dumper {
                 pub const m_inertiaScale: usize = 0x1118; // float32
                 pub const m_vecDamagePosition: usize = 0x111C; // Vector
                 pub const m_vecDamageDirection: usize = 0x1128; // Vector
-                pub const m_nDamageType: usize = 0x1134; // DamageTypes_t
+                pub const m_nDamageType: usize = 0x1134; // 
             }
             // Parent: C_CSGO_TeamPreviewCamera
             // Field count: 0
