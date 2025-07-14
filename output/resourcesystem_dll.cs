@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: resourcesystem.dll
@@ -207,7 +207,7 @@ namespace CS2Dumper.Schemas {
         public static class VariableInfo_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_nameToken = 0x8; // CUtlStringToken
-            public const nint m_nIndex = 0xC; // FuseVariableIndex_t
+            public const nint m_nIndex = 0xC; // 
             public const nint m_nNumComponents = 0xE; // uint8
             public const nint m_eVarType = 0xF; // FuseVariableType_t
             public const nint m_eAccess = 0x10; // FuseVariableAccess_t
@@ -387,7 +387,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_name = 0x8; // CUtlString
             public const nint m_nameToken = 0x10; // CUtlStringToken
             public const nint m_nParamCount = 0x14; // int32
-            public const nint m_nIndex = 0x18; // 
+            public const nint m_nIndex = 0x18; // FuseFunctionIndex_t
             public const nint m_bIsPure = 0x1A; // bool
         }
         // Parent: None

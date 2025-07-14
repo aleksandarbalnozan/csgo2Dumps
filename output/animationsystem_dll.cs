@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -5448,7 +5448,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CSolveIKChainUpdateNode {
-            public const nint m_targetHandles = 0x68; // CUtlVector<CSolveIKTargetHandle_t>
+            public const nint m_targetHandles = 0x68; // 
             public const nint m_opFixedData = 0x80; // SolveIKChainPoseOpFixedSettings_t
         }
         // Parent: CNmBoolValueNode__CDefinition

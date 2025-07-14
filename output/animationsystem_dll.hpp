@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 #pragma once
 
@@ -5453,7 +5453,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CSolveIKChainUpdateNode {
-                constexpr std::ptrdiff_t m_targetHandles = 0x68; // CUtlVector<CSolveIKTargetHandle_t>
+                constexpr std::ptrdiff_t m_targetHandles = 0x68; // 
                 constexpr std::ptrdiff_t m_opFixedData = 0x80; // SolveIKChainPoseOpFixedSettings_t
             }
             // Parent: CNmBoolValueNode__CDefinition

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 #pragma once
 
@@ -212,7 +212,7 @@ namespace cs2_dumper {
             namespace VariableInfo_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nameToken = 0x8; // CUtlStringToken
-                constexpr std::ptrdiff_t m_nIndex = 0xC; // FuseVariableIndex_t
+                constexpr std::ptrdiff_t m_nIndex = 0xC; // 
                 constexpr std::ptrdiff_t m_nNumComponents = 0xE; // uint8
                 constexpr std::ptrdiff_t m_eVarType = 0xF; // FuseVariableType_t
                 constexpr std::ptrdiff_t m_eAccess = 0x10; // FuseVariableAccess_t
@@ -392,7 +392,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_name = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_nameToken = 0x10; // CUtlStringToken
                 constexpr std::ptrdiff_t m_nParamCount = 0x14; // int32
-                constexpr std::ptrdiff_t m_nIndex = 0x18; // 
+                constexpr std::ptrdiff_t m_nIndex = 0x18; // FuseFunctionIndex_t
                 constexpr std::ptrdiff_t m_bIsPure = 0x1A; // bool
             }
             // Parent: None

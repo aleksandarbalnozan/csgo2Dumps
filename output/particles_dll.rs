@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -3216,7 +3216,7 @@ pub mod cs2_dumper {
                 pub const m_nSequenceMax: usize = 0x1CC; // int32
                 pub const m_bShuffle: usize = 0x1D0; // bool
                 pub const m_bLinear: usize = 0x1D1; // bool
-                pub const m_WeightedList: usize = 0x1D8; // CUtlVector<SequenceWeightedList_t>
+                pub const m_WeightedList: usize = 0x1D8; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 5

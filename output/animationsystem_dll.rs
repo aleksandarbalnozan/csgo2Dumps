@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -5545,7 +5545,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CSolveIKChainUpdateNode {
-                pub const m_targetHandles: usize = 0x68; // CUtlVector<CSolveIKTargetHandle_t>
+                pub const m_targetHandles: usize = 0x68; // 
                 pub const m_opFixedData: usize = 0x80; // SolveIKChainPoseOpFixedSettings_t
             }
             // Parent: CNmBoolValueNode__CDefinition

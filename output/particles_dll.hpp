@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 #pragma once
 
@@ -3142,7 +3142,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSequenceMax = 0x1CC; // int32
                 constexpr std::ptrdiff_t m_bShuffle = 0x1D0; // bool
                 constexpr std::ptrdiff_t m_bLinear = 0x1D1; // bool
-                constexpr std::ptrdiff_t m_WeightedList = 0x1D8; // CUtlVector<SequenceWeightedList_t>
+                constexpr std::ptrdiff_t m_WeightedList = 0x1D8; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 5

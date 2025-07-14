@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-23 23:06:44.218709200 UTC
+// 2025-07-14 20:20:03.598111900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -3137,7 +3137,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nSequenceMax = 0x1CC; // int32
             public const nint m_bShuffle = 0x1D0; // bool
             public const nint m_bLinear = 0x1D1; // bool
-            public const nint m_WeightedList = 0x1D8; // CUtlVector<SequenceWeightedList_t>
+            public const nint m_WeightedList = 0x1D8; // 
         }
         // Parent: CParticleFunctionOperator
         // Field count: 5
