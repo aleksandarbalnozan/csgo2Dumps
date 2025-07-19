@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-07-19 19:04:46.058253900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2928,7 +2928,7 @@ pub mod cs2_dumper {
                 pub const m_bShouldHitboxesFallbackToCollisionHulls: usize = 0x30F; // bool
                 pub const m_nViewModelEffect: usize = 0x310; // InheritableBoolType_t
                 pub const m_bScreenSpaceEffect: usize = 0x314; // bool
-                pub const m_pszTargetLayerID: usize = 0x318; // CUtlSymbolLarge
+                pub const m_pszTargetLayerID: usize = 0x318; // 
                 pub const m_nSkipRenderControlPoint: usize = 0x320; // int32
                 pub const m_nAllowRenderControlPoint: usize = 0x324; // int32
                 pub const m_bShouldSort: usize = 0x328; // bool
@@ -3216,7 +3216,7 @@ pub mod cs2_dumper {
                 pub const m_nSequenceMax: usize = 0x1CC; // int32
                 pub const m_bShuffle: usize = 0x1D0; // bool
                 pub const m_bLinear: usize = 0x1D1; // bool
-                pub const m_WeightedList: usize = 0x1D8; // 
+                pub const m_WeightedList: usize = 0x1D8; // CUtlVector<SequenceWeightedList_t>
             }
             // Parent: CParticleFunctionOperator
             // Field count: 5
@@ -3962,7 +3962,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_LockToPointList {
                 pub const m_nFieldOutput: usize = 0x1C0; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1C8; // 
+                pub const m_pointList: usize = 0x1C8; // CUtlVector<PointDefinition_t>
                 pub const m_bPlaceAlongPath: usize = 0x1E0; // bool
                 pub const m_bClosedLoop: usize = 0x1E1; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1E4; // int32
@@ -4277,7 +4277,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderOmni2Light {
-                pub const m_nLightType: usize = 0x210; // ParticleOmni2LightTypeChoiceList_t
+                pub const m_nLightType: usize = 0x210; // 
                 pub const m_vColorBlend: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_nBrightnessUnit: usize = 0x894; // ParticleLightUnitChoiceList_t
@@ -5902,7 +5902,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_PointList {
                 pub const m_nFieldOutput: usize = 0x1C8; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1D0; // 
+                pub const m_pointList: usize = 0x1D0; // CUtlVector<PointDefinition_t>
                 pub const m_bPlaceAlongPath: usize = 0x1E8; // bool
                 pub const m_bClosedLoop: usize = 0x1E9; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1EC; // int32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-07-19 19:04:46.058253900 UTC
 
 #pragma once
 
@@ -2854,7 +2854,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bShouldHitboxesFallbackToCollisionHulls = 0x30F; // bool
                 constexpr std::ptrdiff_t m_nViewModelEffect = 0x310; // InheritableBoolType_t
                 constexpr std::ptrdiff_t m_bScreenSpaceEffect = 0x314; // bool
-                constexpr std::ptrdiff_t m_pszTargetLayerID = 0x318; // CUtlSymbolLarge
+                constexpr std::ptrdiff_t m_pszTargetLayerID = 0x318; // 
                 constexpr std::ptrdiff_t m_nSkipRenderControlPoint = 0x320; // int32
                 constexpr std::ptrdiff_t m_nAllowRenderControlPoint = 0x324; // int32
                 constexpr std::ptrdiff_t m_bShouldSort = 0x328; // bool
@@ -3142,7 +3142,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSequenceMax = 0x1CC; // int32
                 constexpr std::ptrdiff_t m_bShuffle = 0x1D0; // bool
                 constexpr std::ptrdiff_t m_bLinear = 0x1D1; // bool
-                constexpr std::ptrdiff_t m_WeightedList = 0x1D8; // 
+                constexpr std::ptrdiff_t m_WeightedList = 0x1D8; // CUtlVector<SequenceWeightedList_t>
             }
             // Parent: CParticleFunctionOperator
             // Field count: 5
@@ -3888,7 +3888,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace C_OP_LockToPointList {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1C0; // ParticleAttributeIndex_t
-                constexpr std::ptrdiff_t m_pointList = 0x1C8; // 
+                constexpr std::ptrdiff_t m_pointList = 0x1C8; // CUtlVector<PointDefinition_t>
                 constexpr std::ptrdiff_t m_bPlaceAlongPath = 0x1E0; // bool
                 constexpr std::ptrdiff_t m_bClosedLoop = 0x1E1; // bool
                 constexpr std::ptrdiff_t m_nNumPointsAlongPath = 0x1E4; // int32
@@ -4203,7 +4203,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderOmni2Light {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleOmni2LightTypeChoiceList_t
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
                 constexpr std::ptrdiff_t m_vColorBlend = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_nBrightnessUnit = 0x894; // ParticleLightUnitChoiceList_t
@@ -5828,7 +5828,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace C_INIT_PointList {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1C8; // ParticleAttributeIndex_t
-                constexpr std::ptrdiff_t m_pointList = 0x1D0; // 
+                constexpr std::ptrdiff_t m_pointList = 0x1D0; // CUtlVector<PointDefinition_t>
                 constexpr std::ptrdiff_t m_bPlaceAlongPath = 0x1E8; // bool
                 constexpr std::ptrdiff_t m_bClosedLoop = 0x1E9; // bool
                 constexpr std::ptrdiff_t m_nNumPointsAlongPath = 0x1EC; // int32

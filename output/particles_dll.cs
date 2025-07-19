@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-07-19 19:04:46.058253900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -2849,7 +2849,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bShouldHitboxesFallbackToCollisionHulls = 0x30F; // bool
             public const nint m_nViewModelEffect = 0x310; // InheritableBoolType_t
             public const nint m_bScreenSpaceEffect = 0x314; // bool
-            public const nint m_pszTargetLayerID = 0x318; // CUtlSymbolLarge
+            public const nint m_pszTargetLayerID = 0x318; // 
             public const nint m_nSkipRenderControlPoint = 0x320; // int32
             public const nint m_nAllowRenderControlPoint = 0x324; // int32
             public const nint m_bShouldSort = 0x328; // bool
@@ -3137,7 +3137,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nSequenceMax = 0x1CC; // int32
             public const nint m_bShuffle = 0x1D0; // bool
             public const nint m_bLinear = 0x1D1; // bool
-            public const nint m_WeightedList = 0x1D8; // 
+            public const nint m_WeightedList = 0x1D8; // CUtlVector<SequenceWeightedList_t>
         }
         // Parent: CParticleFunctionOperator
         // Field count: 5
@@ -3883,7 +3883,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class C_OP_LockToPointList {
             public const nint m_nFieldOutput = 0x1C0; // ParticleAttributeIndex_t
-            public const nint m_pointList = 0x1C8; // 
+            public const nint m_pointList = 0x1C8; // CUtlVector<PointDefinition_t>
             public const nint m_bPlaceAlongPath = 0x1E0; // bool
             public const nint m_bClosedLoop = 0x1E1; // bool
             public const nint m_nNumPointsAlongPath = 0x1E4; // int32
@@ -4198,7 +4198,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderOmni2Light {
-            public const nint m_nLightType = 0x210; // ParticleOmni2LightTypeChoiceList_t
+            public const nint m_nLightType = 0x210; // 
             public const nint m_vColorBlend = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
             public const nint m_nBrightnessUnit = 0x894; // ParticleLightUnitChoiceList_t
@@ -5823,7 +5823,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class C_INIT_PointList {
             public const nint m_nFieldOutput = 0x1C8; // ParticleAttributeIndex_t
-            public const nint m_pointList = 0x1D0; // 
+            public const nint m_pointList = 0x1D0; // CUtlVector<PointDefinition_t>
             public const nint m_bPlaceAlongPath = 0x1E8; // bool
             public const nint m_bClosedLoop = 0x1E9; // bool
             public const nint m_nNumPointsAlongPath = 0x1EC; // int32

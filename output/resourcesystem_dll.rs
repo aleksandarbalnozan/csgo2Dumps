@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-07-19 19:04:46.058253900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -212,7 +212,7 @@ pub mod cs2_dumper {
             pub mod VariableInfo_t {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_nameToken: usize = 0x8; // CUtlStringToken
-                pub const m_nIndex: usize = 0xC; // 
+                pub const m_nIndex: usize = 0xC; // FuseVariableIndex_t
                 pub const m_nNumComponents: usize = 0xE; // uint8
                 pub const m_eVarType: usize = 0xF; // FuseVariableType_t
                 pub const m_eAccess: usize = 0x10; // FuseVariableAccess_t

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-07-19 19:04:46.058253900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -70,7 +70,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class RnSphereDesc_t {
-            public const nint m_Sphere = 0x18; // SphereBase_t<float32>
+            public const nint m_Sphere = 0x18; // 
         }
         // Parent: RnShapeDesc_t
         // Field count: 1
@@ -441,8 +441,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_vMax = 0xC; // Vector
             public const nint m_Nodes = 0x18; // CUtlVector<RnNode_t>
             public const nint m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
-            public const nint m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
-            public const nint m_Wings = 0x60; // CUtlVector<RnWing_t>
+            public const nint m_Triangles = 0x48; // 
+            public const nint m_Wings = 0x60; // 
             public const nint m_Materials = 0x78; // CUtlVector<uint8>
             public const nint m_vOrthographicAreas = 0x90; // Vector
             public const nint m_nFlags = 0x9C; // uint32
@@ -1168,7 +1168,7 @@ namespace CS2Dumper.Schemas {
             public const nint w1 = 0x30; // fltx4
             public const nint w2 = 0x40; // fltx4
             public const nint v1x = 0x50; // fltx4
-            public const nint v2 = 0x60; // FourVectors2D
+            public const nint v2 = 0x60; // 
         }
         // Parent: None
         // Field count: 1
