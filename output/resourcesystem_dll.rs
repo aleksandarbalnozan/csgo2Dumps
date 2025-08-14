@@ -1,12 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-08-14 22:54:09.837195400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod cs2_dumper {
     pub mod schemas {
         // Module: resourcesystem.dll
-        // Class count: 59
+        // Class count: 58
         // Enum count: 2
         pub mod resourcesystem_dll {
             // Alignment: 1
@@ -156,14 +156,6 @@ pub mod cs2_dumper {
             pub mod InfoForResourceTypeCVoxelVisibility {
             }
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            pub mod TestResource_t {
-                pub const m_name: usize = 0x0; // CUtlString
-            }
-            // Parent: None
             // Field count: 0
             //
             // Metadata:
@@ -212,7 +204,7 @@ pub mod cs2_dumper {
             pub mod VariableInfo_t {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_nameToken: usize = 0x8; // CUtlStringToken
-                pub const m_nIndex: usize = 0xC; // 
+                pub const m_nIndex: usize = 0xC; // FuseVariableIndex_t
                 pub const m_nNumComponents: usize = 0xE; // uint8
                 pub const m_eVarType: usize = 0xF; // FuseVariableType_t
                 pub const m_eAccess: usize = 0x10; // FuseVariableAccess_t
@@ -258,7 +250,7 @@ pub mod cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            pub mod InfoForResourceTypeTestResource_t {
+            pub mod InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
             // Field count: 0
@@ -300,7 +292,7 @@ pub mod cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            pub mod InfoForResourceTypeCNmGraphVariation {
+            pub mod InfoForResourceTypeCSurfaceGraph {
             }
             // Parent: None
             // Field count: 0

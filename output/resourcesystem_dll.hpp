@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-08-14 22:54:09.837195400 UTC
 
 #pragma once
 
@@ -8,7 +8,7 @@
 namespace cs2_dumper {
     namespace schemas {
         // Module: resourcesystem.dll
-        // Class count: 59
+        // Class count: 58
         // Enum count: 2
         namespace resourcesystem_dll {
             // Alignment: 1
@@ -156,14 +156,6 @@ namespace cs2_dumper {
             namespace InfoForResourceTypeCVoxelVisibility {
             }
             // Parent: None
-            // Field count: 1
-            //
-            // Metadata:
-            // MGetKV3ClassDefaults
-            namespace TestResource_t {
-                constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-            }
-            // Parent: None
             // Field count: 0
             //
             // Metadata:
@@ -212,7 +204,7 @@ namespace cs2_dumper {
             namespace VariableInfo_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nameToken = 0x8; // CUtlStringToken
-                constexpr std::ptrdiff_t m_nIndex = 0xC; // 
+                constexpr std::ptrdiff_t m_nIndex = 0xC; // FuseVariableIndex_t
                 constexpr std::ptrdiff_t m_nNumComponents = 0xE; // uint8
                 constexpr std::ptrdiff_t m_eVarType = 0xF; // FuseVariableType_t
                 constexpr std::ptrdiff_t m_eAccess = 0x10; // FuseVariableAccess_t
@@ -258,7 +250,7 @@ namespace cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            namespace InfoForResourceTypeTestResource_t {
+            namespace InfoForResourceTypeCTestResourceData {
             }
             // Parent: None
             // Field count: 0
@@ -300,7 +292,7 @@ namespace cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            namespace InfoForResourceTypeCNmGraphVariation {
+            namespace InfoForResourceTypeCSurfaceGraph {
             }
             // Parent: None
             // Field count: 0

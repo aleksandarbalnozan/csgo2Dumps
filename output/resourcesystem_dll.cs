@@ -1,9 +1,9 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-07-14 20:20:03.598111900 UTC
+// 2025-08-14 22:54:09.837195400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: resourcesystem.dll
-    // Class count: 59
+    // Class count: 58
     // Enum count: 2
     public static class ResourcesystemDll {
         // Alignment: 1
@@ -151,14 +151,6 @@ namespace CS2Dumper.Schemas {
         public static class InfoForResourceTypeCVoxelVisibility {
         }
         // Parent: None
-        // Field count: 1
-        //
-        // Metadata:
-        // MGetKV3ClassDefaults
-        public static class TestResource_t {
-            public const nint m_name = 0x0; // CUtlString
-        }
-        // Parent: None
         // Field count: 0
         //
         // Metadata:
@@ -207,7 +199,7 @@ namespace CS2Dumper.Schemas {
         public static class VariableInfo_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_nameToken = 0x8; // CUtlStringToken
-            public const nint m_nIndex = 0xC; // 
+            public const nint m_nIndex = 0xC; // FuseVariableIndex_t
             public const nint m_nNumComponents = 0xE; // uint8
             public const nint m_eVarType = 0xF; // FuseVariableType_t
             public const nint m_eAccess = 0x10; // FuseVariableAccess_t
@@ -253,7 +245,7 @@ namespace CS2Dumper.Schemas {
         //
         // Metadata:
         // MResourceTypeForInfoType
-        public static class InfoForResourceTypeTestResource_t {
+        public static class InfoForResourceTypeCTestResourceData {
         }
         // Parent: None
         // Field count: 0
@@ -295,7 +287,7 @@ namespace CS2Dumper.Schemas {
         //
         // Metadata:
         // MResourceTypeForInfoType
-        public static class InfoForResourceTypeCNmGraphVariation {
+        public static class InfoForResourceTypeCSurfaceGraph {
         }
         // Parent: None
         // Field count: 0
